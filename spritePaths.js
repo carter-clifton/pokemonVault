@@ -62,11 +62,13 @@ export const spritePaths = {
     ],
     "rattata": [
         ['Male', ['assets/sprites_webp/rattata/male.webp']],
-        ['Female', ['assets/sprites_webp/rattata/female.webp']]
+        ['Female', ['assets/sprites_webp/rattata/female.webp']],
+        ['Alolan', ['assets/sprites_webp/rattata/alolan.webp']]
     ],
     "raticate": [
         ['Male', ['assets/sprites_webp/raticate/male.webp']],
-        ['Female', ['assets/sprites_webp/raticate/female.webp']]
+        ['Female', ['assets/sprites_webp/raticate/female.webp']],
+        ['Alolan', ['assets/sprites_webp/raticate/alolan.webp']]
     ],
     "spearow": [
         ['Main', ['assets/sprites_webp/spearow/main.webp']]
@@ -87,13 +89,16 @@ export const spritePaths = {
     ],
     "raichu": [
         ['Male', ['assets/sprites_webp/raichu/male.webp']],
-        ['Female', ['assets/sprites_webp/raichu/female.webp']]
+        ['Female', ['assets/sprites_webp/raichu/female.webp']],
+        ['Alolan', ['assets/sprites_webp/raichu/alolan.webp']]
     ],
     "sandshrew": [
-        ['Main', ['assets/sprites_webp/sandshrew/main.webp']]
+        ['Main', ['assets/sprites_webp/sandshrew/main.webp']],
+        ['Alolan', ['assets/sprites_webp/sandshrew/alolan.webp']]
     ],
     "sandslash": [
-        ['Main', ['assets/sprites_webp/sandslash/main.webp']]
+        ['Main', ['assets/sprites_webp/sandslash/main.webp']],
+        ['Alolan', ['assets/sprites_webp/sandslash/alolan.webp']]
     ],
     "nidoran-f": [
         ['Main', ['assets/sprites_webp/nidoran-f/main.webp']]
@@ -120,10 +125,12 @@ export const spritePaths = {
         ['Main', ['assets/sprites_webp/clefable/main.webp']]
     ],
     "vulpix": [
-        ['Main', ['assets/sprites_webp/vulpix/main.webp']]
+        ['Main', ['assets/sprites_webp/vulpix/main.webp']],
+        ['Alolan', ['assets/sprites_webp/vulpix/alolan.webp']]
     ],
     "ninetales": [
-        ['Main', ['assets/sprites_webp/ninetales/main.webp']]
+        ['Main', ['assets/sprites_webp/ninetales/main.webp']],
+        ['Alolan', ['assets/sprites_webp/ninetales/alolan.webp']]
     ],
     "jigglypuff": [
         ['Main', ['assets/sprites_webp/jigglypuff/main.webp']]
@@ -163,17 +170,21 @@ export const spritePaths = {
         ['Main', ['assets/sprites_webp/venomoth/main.webp']]
     ],
     "diglett": [
-        ['Main', ['assets/sprites_webp/diglett/main.webp']]
+        ['Main', ['assets/sprites_webp/diglett/main.webp']],
+        ['Alolan', ['assets/sprites_webp/diglett/alolan.webp']]
     ],
     "dugtrio": [
-        ['Main', ['assets/sprites_webp/dugtrio/main.webp']]
+        ['Main', ['assets/sprites_webp/dugtrio/main.webp']],
+        ['Alolan', ['assets/sprites_webp/dugtrio/alolan.webp']]
     ],
     "meowth": [
         ['Main', ['assets/sprites_webp/meowth/main.webp']],
+        ['Alolan', ['assets/sprites_webp/meowth/alolan.webp']],
         ['Galarian', ['assets/sprites_webp/meowth/galarian.webp']]
     ],
     "persian": [
-        ['Main', ['assets/sprites_webp/persian/main.webp']]
+        ['Main', ['assets/sprites_webp/persian/main.webp']],
+        ['Alolan', ['assets/sprites_webp/persian/alolan.webp']]
     ],
     "psyduck": [
         ['Main', ['assets/sprites_webp/psyduck/main.webp']]
@@ -241,13 +252,16 @@ export const spritePaths = {
         ['Main', ['assets/sprites_webp/tentacruel/main.webp']]
     ],
     "geodude": [
-        ['Main', ['assets/sprites_webp/geodude/main.webp']]
+        ['Main', ['assets/sprites_webp/geodude/main.webp']],
+        ['Alolan', ['assets/sprites_webp/geodude/alolan.webp']]
     ],
     "graveler": [
-        ['Main', ['assets/sprites_webp/graveler/main.webp']]
+        ['Main', ['assets/sprites_webp/graveler/main.webp']],
+        ['Alolan', ['assets/sprites_webp/graveler/alolan.webp']]
     ],
     "golem": [
-        ['Main', ['assets/sprites_webp/golem/main.webp']]
+        ['Main', ['assets/sprites_webp/golem/main.webp']],
+        ['Alolan', ['assets/sprites_webp/golem/alolan.webp']]
     ],
     "ponyta": [
         ['Main', ['assets/sprites_webp/ponyta/main.webp']],
@@ -291,10 +305,12 @@ export const spritePaths = {
         ['Main', ['assets/sprites_webp/dewgong/main.webp']]
     ],
     "grimer": [
-        ['Main', ['assets/sprites_webp/grimer/main.webp']]
+        ['Main', ['assets/sprites_webp/grimer/main.webp']],
+        ['Alolan', ['assets/sprites_webp/grimer/alolan.webp']]
     ],
     "muk": [
-        ['Main', ['assets/sprites_webp/muk/main.webp']]
+        ['Main', ['assets/sprites_webp/muk/main.webp']],
+        ['Alolan', ['assets/sprites_webp/muk/alolan.webp']]
     ],
     "shellder": [
         ['Main', ['assets/sprites_webp/shellder/main.webp']]
@@ -340,13 +356,15 @@ export const spritePaths = {
         ['Main', ['assets/sprites_webp/exeggcute/main.webp']]
     ],
     "exeggutor": [
-        ['Main', ['assets/sprites_webp/exeggutor/main.webp']]
+        ['Main', ['assets/sprites_webp/exeggutor/main.webp']],
+        ['Alolan', ['assets/sprites_webp/exeggutor/alolan.webp']]
     ],
     "cubone": [
         ['Main', ['assets/sprites_webp/cubone/main.webp']]
     ],
     "marowak": [
-        ['Main', ['assets/sprites_webp/marowak/main.webp']]
+        ['Main', ['assets/sprites_webp/marowak/main.webp']],
+        ['Alolan', ['assets/sprites_webp/marowak/alolan.webp']]
     ],
     "hitmonlee": [
         ['Main', ['assets/sprites_webp/hitmonlee/main.webp']]
@@ -3325,4 +3343,4 @@ export const spritePaths = {
     "pecharunt": [
         ['Main', ['assets/sprites_webp/pecharunt/main.webp']]
     ],
-}
+};
