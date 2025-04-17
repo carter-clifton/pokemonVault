@@ -1,0 +1,37 @@
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    width: 48px;
+    height: 48px;
+    border: none;
+    background: transparent;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out, transform 0.2s ease-in-out;
+    margin-right: 1rem;
+}
+
+#scrollTopBtn.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+#scrollTopBtn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.tooltip-inner {
+    background-color: black !important;
+    color: #fff;
+    font-size: 1rem;
+    padding: 6px 10px;
+    border-radius: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.tooltip-arrow {
+    margin-bottom: 0.25rem;
+}
