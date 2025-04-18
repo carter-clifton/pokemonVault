@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon PC Box</title>
+    <link rel="stylesheet" href="pokemontrackerstyle.css">
+
+</head>
+
+<body>
+
+    <h1>Pokémon PC</h1>
+
+    <div class="controls">
+
+        <label for="region">Select Region: </label>
+        <select id="region">
+            <option value="kanto">Kanto</option>
+            <option value="johto">Johto</option>
+            <option value="hoenn">Hoenn</option>
+            <option value="sinnoh">Sinnoh</option>
+            <option value="unova">Unova</option>
+            <option value="kalos">Kalos</option>
+            <option value="alola">Alola</option>
+            <option value="galar">Galar</option>
+            <option value="hisui">Hisui</option>
+            <option value="paldea">Paldea</option>
+        <!-- Future: add Johto, Hoenn, etc. -->
+        </select>
+
+    </div>
+
+    <div id="caughtRatio"></div>
+
+    <div class="box" id="pokemonBox"></div>
+
+    <div class="pagination">
+
+        <button id="prevPage">Previous</button>
+        <span id="pageIndicator">Page 1</span>
+        <button id="nextPage">Next</button>
+
+    </div>
+
+    <script src="pokemontrackerscript.js" type="module"></script>
+
+</body>
+
+</html>
