@@ -24,8 +24,14 @@ select, button {
     grid-template-columns: repeat(6, 1fr);
     gap: 10px;
     max-width: 800px;
-    margin: auto;
-    height: 535px;
+    margin: 20px auto;
+    clear: both;
+}
+
+#pokemonBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .pokemon {
