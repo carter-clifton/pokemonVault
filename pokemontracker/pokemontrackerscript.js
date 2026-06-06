@@ -121,19 +121,6 @@ function renderPage() {
     updateCaughtRatio();
 }
 
-function getUncaught(region) {
-    if (region === 'all') {
-        return Object.entries(regionData).flatMap(([regionName, list]) => {
-            const caught = getCaught(regionName);
-            return list.filter(name => !caught[name]).map(name => ({ name, region: regionName }));
-        });
-    } else {
-        const list = regionData[region];
-        const caught = getCaught(region);
-        return list.filter(name => !caught[name]);
-    }
-}
-
 document.getElementById('prevPage').addEventListener('click', () => {
     if (currentRegion === 'all') return;
     if (currentPage > 0) {
@@ -158,5 +145,3 @@ regionSelect.addEventListener('change', () => {
 });
 
 renderPage();
-
-window.getUncaught = getUncaught;
